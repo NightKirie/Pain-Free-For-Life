@@ -208,7 +208,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.1em;
+		font-size: 1.2em;
 	}
 
 	h3 {
@@ -3165,7 +3165,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 5em 0 6em 0 ;
+		padding: 0em 0 0em 0 ;
 		background-color: #f6f6f6;
 	}
 
@@ -3201,12 +3201,16 @@ input, select, textarea {
 			#footer > .inner .copyright {
 				width: 100%;
 				padding: 0;
-				margin-top: 5em;
+				margin-top: 3em;
 				list-style: none;
-				font-size: 0.8em;
+				font-size: 1.2em;
 				color: rgba(88, 88, 88, 0.5);
 			}
 
+				#footer > .inner .copyright img {
+					width: 5em;
+				}
+				
 				#footer > .inner .copyright a {
 					color: inherit;
 				}
